@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Universidad Ejemplo</title>
+
+  <!-- AOS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" >
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+ <!-- Navbar -->
+  <div id="site-header"></div>
+
+  <!-- Hero Section -->  
+  <section id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" style="min-height: 80vh;">
+  <div class="carousel-inner text-white d-flex align-items-center" style="position: relative;">
+
+    <div class="carousel-item active" style="background: url(./images/slide-1.webp) center/cover no-repeat; height: 80vh;">
+      <div class="container h-100 d-flex flex-column justify-content-center text-white text-center text-md-start position" style="z-index: 2;" data-aos="fade-up">
+        <h1 class="display-4 fw-bold text-shadow">Transforma tu futuro con educación de calidad</h1>
+        <p class="lead text-shadow">Únete a una comunidad de excelencia académica. Explora nuestros programas hoy.</p>
+        <a href="programs.html" class="btn btn-warning btn-lg fw-semibold align-self-md-start align-self-center">Explorar Programas</a>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="carousel-item" style="background: url(./images/slide-2.webp) center/cover no-repeat; height: 80vh;">
+      <div class="container h-100 d-flex flex-column justify-content-center text-white text-center text-md-start position" style="z-index: 2;">
+        <h1 class="display-4 fw-bold text-shadow">Programas innovadores para tu crecimiento profesional</h1>
+        <p class="lead text-shadow">Prepárate para el mercado laboral con especialistas de primera y tecnología de punta.</p>
+        <a href="programs.html" class="btn btn-warning btn-lg fw-semibold align-self-md-start align-self-center">Más Información</a>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="carousel-item" style="background: url(./images/slide-3.webp) center/cover no-repeat; height: 80vh;">
+      <div class="container h-100 d-flex flex-column justify-content-center text-white text-center text-md-start position" style="z-index: 2;">
+        <h1 class="display-4 fw-bold text-shadow">Forma parte de nuestra comunidad global</h1>
+        <p class="lead text-shadow">Networking, intercambios y oportunidades únicas te esperan.</p>
+        <a href="admissions.html" class="btn btn-warning btn-lg fw-semibold align-self-md-start align-self-center">Aplica Ahora</a>
+      </div>
+      <div class="overlay"></div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</section>
+
+
+  <!-- Programas -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-bold display-6">Nuestros Programas Académicos</h2>
+    <div class="row g-4">
+
+      <!-- Tarjeta Programa 1 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-lg border-0 hover-shadow bg-light">
+          <div class="card-body">
+            <div class="mb-4 text-primary">
+              <i class="bi bi-cpu-fill" style="font-size: 3rem;"></i>
+            </div>
+            <h5 class="card-title fw-semibold">Ingeniería Informática</h5>
+            <p class="card-text text-muted">Formación en desarrollo de software, IA y ciberseguridad.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta Programa 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 shadow-lg border-0 hover-shadow bg-light">
+          <div class="card-body">
+            <div class="mb-4 text-primary">
+              <i class="bi bi-briefcase-fill" style="font-size: 3rem;"></i>
+            </div>
+            <h5 class="card-title fw-semibold">Administración de Empresas</h5>
+            <p class="card-text text-muted">Liderazgo, finanzas y gestión estratégica para el futuro.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta Programa 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow-lg border-0 hover-shadow bg-light">
+          <div class="card-body">
+            <div class="mb-4 text-primary">
+              <i class="bi bi-people-fill" style="font-size: 3rem;"></i>
+            </div>
+            <h5 class="card-title fw-semibold">Psicología</h5>
+            <p class="card-text text-muted">Comprende la mente humana con un enfoque práctico y ético.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Sobre la Universidad-->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6" data-aos="fade-right">
+        <img src="images/campus.webp" alt="Campus" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2 class="fw-bold mb-3">Quiénes Somos</h2>
+        <p class="lead">Somos una institución líder comprometida con la excelencia en educación, innovación e impacto social. Únete a miles de estudiantes que están formando el futuro.</p>
+        <a href="about-us.html" class="btn btn-warning">Saber Más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Why Choose Us-->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Por Qué Elegirnos</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="p-4 bg-white shadow rounded h-100">
+          <i class="bi bi-people-fill text-primary mb-3" style="font-size: 3rem;"></i>
+          <h5 class="fw-semibold">Más de 15,000 Estudiantes</h5>
+          <p class="text-muted mb-0">Una comunidad académica vibrante y diversa de todo el mundo.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="p-4 bg-white shadow rounded h-100">
+          <i class="bi bi-briefcase-fill text-primary mb-3" style="font-size: 3rem;"></i>
+          <h5 class="fw-semibold">90% de Colocación Laboral</h5>
+          <p class="text-muted mb-0">Nuestros graduados encuentran rápidamente oportunidades en las mejores empresas a nivel global.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="p-4 bg-white shadow rounded h-100">
+          <i class="bi bi-globe text-primary mb-3" style="font-size: 3rem;"></i>
+          <h5 class="fw-semibold">Más de 50 Socios Internacionales</h5>
+          <p class="text-muted mb-0">Colaboraciones con universidades e instituciones en todo el mundo.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== FAQ Section ====== -->
+<section class="py-5 bg-light" id="faq">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Preguntas Frecuentes</h2>
+      <p class="text-muted">Encuentra respuestas a las preguntas más comunes sobre nuestros programas, admisiones y más.</p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- Pregunta 1 -->
+      <div class="accordion-item" data-aos="fade-up">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            ¿Cómo puedo postularme para la admisión?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Puedes postularte en línea a través de nuestro portal de admisiones. Asegúrate de preparar todos los documentos requeridos, incluyendo certificados académicos y cartas de recomendación.
+          </div>
+        </div>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+            aria-expanded="false" aria-controls="collapseTwo">
+            ¿Qué programas ofrecen?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Ofrecemos más de 60 programas de pregrado y posgrado en disciplinas como negocios, ingeniería, artes y ciencias.
+          </div>
+        </div>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+            aria-expanded="false" aria-controls="collapseThree">
+            ¿Ofrecen becas?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Sí, ofrecemos una amplia variedad de becas por mérito y por necesidad económica. Consulta nuestra página de becas para conocer los requisitos y fechas límite de aplicación.
+          </div>
+        </div>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+            aria-expanded="false" aria-controls="collapseFour">
+            ¿Pueden postular estudiantes internacionales?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Por supuesto. Damos la bienvenida a estudiantes de todo el mundo. Por favor revisa los requisitos de admisión internacional y las pautas para visas.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--Testimonials-->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5"><i class="bi bi-quote display-4 text-primary"></i> Lo Que Dicen Nuestros Estudiantes</h2>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+
+        <div class="carousel-item active">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-4" width="100" height="100" alt="Estudiante">
+          <blockquote class="blockquote">
+            <p class="mb-4 text-dark">“La universidad me brindó no solo conocimiento, sino la confianza para perseguir mis sueños. Los profesores realmente se preocupan.”</p>
+            <footer class="blockquote-footer">María Fernández, <cite title="Programa">Psicología</cite></footer>
+          </blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" class="rounded-circle mb-4" width="100" height="100" alt="Estudiante">
+          <blockquote class="blockquote">
+            <p class="mb-4 text-dark">“Programas increíbles y modernas instalaciones. Conseguí trabajo justo después de graduarme gracias a la red de apoyo.”</p>
+            <footer class="blockquote-footer">James Walker, <cite title="Programa">Ingeniería Informática</cite></footer>
+          </blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-4" width="100" height="100" alt="Estudiante">
+          <blockquote class="blockquote">
+            <p class="mb-4 text-dark">“Estudiar aquí cambió mi vida. Las oportunidades internacionales me ayudaron a expandir mi carrera a nivel mundial.”</p>
+            <footer class="blockquote-footer">Sophie Kim, <cite title="Programa">Administración de Empresas</cite></footer>
+          </blockquote>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Vida en el Campus</h2>
+    <div class="row g-4">
+
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-emoji-smile text-primary mb-3" style="font-size: 2.5rem;"></i>
+          <h6 class="fw-semibold">Clubes Estudiantiles</h6>
+          <p class="small text-muted">Únete a más de 50 clubes dirigidos por estudiantes para cultura, tecnología y liderazgo.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-trophy text-primary mb-3" style="font-size: 2.5rem;"></i>
+          <h6 class="fw-semibold">Deportes y Bienestar</h6>
+          <p class="small text-muted">Gimnasios modernos, equipos competitivos y programas de bienestar para todos.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-house-door-fill text-primary mb-3" style="font-size: 2.5rem;"></i>
+          <h6 class="fw-semibold">Alojamiento Estudiantil</h6>
+          <p class="small text-muted">Residencias en el campus con comodidades modernas y eventos comunitarios.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-globe text-primary mb-3" style="font-size: 2.5rem;"></i>
+          <h6 class="fw-semibold">Eventos Internacionales</h6>
+          <p class="small text-muted">Cuerpo estudiantil diverso con ferias culturales y programas de intercambio.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== Stats / Counter Up Section ====== -->
+<section class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Nuestro Impacto en Números</h2>
+    <div class="row g-4">
+
+      <!-- Estudiantes -->
+      <div class="col-6 col-md-3" data-aos="fade-up">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-people-fill text-primary mb-2" style="font-size:2.5rem;"></i>
+          <h3 class="counter fw-bold mb-0" data-target="15000">0</h3>
+          <p class="text-muted small mt-1">Estudiantes</p>
+        </div>
+      </div>
+
+      <!-- Egresados -->
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-award-fill text-primary mb-2" style="font-size:2.5rem;"></i>
+          <h3 class="counter fw-bold mb-0" data-target="45000">0</h3>
+          <p class="text-muted small mt-1">Egresados</p>
+        </div>
+      </div>
+
+      <!-- Programas -->
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-journal-richtext text-primary mb-2" style="font-size:2.5rem;"></i>
+          <h3 class="counter fw-bold mb-0" data-target="65">0</h3>
+          <p class="text-muted small mt-1">Programas</p>
+        </div>
+      </div>
+
+      <!-- Socios Globales -->
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <i class="bi bi-globe text-primary mb-2" style="font-size:2.5rem;"></i>
+          <h3 class="counter fw-bold mb-0" data-target="50">0</h3>
+          <p class="text-muted small mt-1">Socios Globales</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- News & Events Section-->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-5">Noticias y Eventos</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card h-100 shadow-sm border-0 news-card bg-light">
+          <div class="position-relative overflow-hidden">
+            <img src="images/blog/blog-post-1.webp" class="card-img-top" alt="Evento">
+            <span class="badge bg-primary position-absolute top-0 start-0 m-2">28 de mayo</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Día de Puertas Abiertas para Nuevos Estudiantes</h5>
+            <p class="card-text text-muted small">Únete a nuestro recorrido por el campus y conoce nuestra facultad y programas.</p>
+            <a href="blog-post-1.html" class="btn btn-sm btn-outline-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm border-0 news-card bg-light">
+          <div class="position-relative overflow-hidden">
+            <img src="images/blog/blog-post-2.webp" class="card-img-top" alt="Evento">
+            <span class="badge bg-primary position-absolute top-0 start-0 m-2">20 de mayo</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Ceremonia de Graduación 2025</h5>
+            <p class="card-text text-muted small">Celebra el éxito de nuestros estudiantes en la graduación de este año.</p>
+            <a href="blog-post-2.html" class="btn btn-sm btn-outline-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 shadow-sm border-0 news-card bg-light">
+          <div class="position-relative overflow-hidden">
+            <img src="images/blog/blog-post-3.webp" class="card-img-top" alt="Evento">
+            <span class="badge bg-primary position-absolute top-0 start-0 m-2">3 de mayo</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Conferencia de Innovación Tecnológica</h5>
+            <p class="card-text text-muted small">Explora el futuro de la IA y la tecnología con líderes destacados de la industria.</p>
+            <a href="blog-post-3.html" class="btn btn-sm btn-outline-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Aplicación -->
+<section class="py-5 bg-secondary text-white text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">¿Listo para dar el siguiente paso?</h2>
+    <p class="lead">Aplica ahora o habla con nuestro equipo de admisiones para encontrar el programa adecuado para ti.</p>
+    <a href="#" class="btn btn-warning fw-semibold">Inicia tu solicitud</a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <div id="site-footer"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/theme-switcher.js"></script>
+  <script src="js/includes.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/counter.js"></script>
+</body>
+</html>
+
+

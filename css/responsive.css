@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem; /* Smaller on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem; /* Even smaller on phones */
+  }
+}
+
+
+
+/*programs*/
+@media (max-width: 1366px) {
+  .floating-image {
+    width: 120px; /* adjust as needed */
+    height: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .floating-image {
+   top: -70px;
+  }
+}
+
+
+/*blog*/
+
+@media (max-width: 576px) {
+  .post-content {
+    margin: 0 !important;    
+    padding-top: 2rem;        /* No margin outside to avoid overflow */
+    padding-left: 1rem;   /* Padding inside for breathing space */
+    padding-right: 1rem;
+  }
+
+  .show-btn{
+    display:none;
+  }
+  .hide-btn{
+    margin:2rem auto 0;
+    display: block;
+  }
+}

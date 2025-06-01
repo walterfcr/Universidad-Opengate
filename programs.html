@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="theme-blue">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programas | Universidad Opengate</title>
+
+  <!-- AOS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" >
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">  
+</head>
+
+<body class="theme-blue">
+
+  <!-- Navbar -->
+<div id="site-header"></div>
+
+<main>
+<section class="programs-section py-5 bg-light" id="programs">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold">Nuestros Programas Académicos</h2>
+      <p class="text-muted">Explora una amplia variedad de programas de pregrado y posgrado diseñados para ayudarte a tener éxito en tu carrera profesional.</p>
+    </div>
+
+    <div class="row g-4 mt-5">
+      <!-- Programa 1 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/computer-science.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-laptop"></i></div>
+              <h5 class="card-title">Ciencias de la Computación</h5>
+              <p class="card-text text-muted">Aprende programación, IA, ciencia de datos y ciberseguridad a través de proyectos prácticos.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalComputerScience">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 2 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/business-administration.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-briefcase"></i></div>
+              <h5 class="card-title">Administración de Empresas</h5>
+              <p class="card-text text-muted">Desarrolla habilidades de liderazgo, finanzas y marketing para el mundo empresarial global.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalBusiness">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 3 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/nursing.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-heart-pulse"></i></div>
+              <h5 class="card-title">Enfermería</h5>
+              <p class="card-text text-muted">Capacitación clínica práctica y cursos en atención sanitaria y cuidado del paciente.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalNursing">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 4 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/engineering.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-gear"></i></div>
+              <h5 class="card-title">Ingeniería</h5>
+              <p class="card-text text-muted">Innovación en campos como ingeniería mecánica, eléctrica y civil.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalEngineering">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 5 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/journalism-media.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-journal-richtext"></i></div>
+              <h5 class="card-title">Periodismo y Medios</h5>
+              <p class="card-text text-muted">Domina la narración, ética de los medios y habilidades de comunicación digital.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalJournalism">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 6 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/psychology.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-people"></i></div>
+              <h5 class="card-title">Psicología</h5>
+              <p class="card-text text-muted">Explora el comportamiento humano, la ciencia cognitiva y estudios de salud mental.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalPsychology">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 7 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/law.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-book"></i></div>
+              <h5 class="card-title">Derecho</h5>
+              <p class="card-text text-muted">Comprende sistemas legales, defensa y justicia a través de cursos profundos.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalLaw">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 8 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/international-relations.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-globe-americas"></i></div>
+              <h5 class="card-title">Relaciones Internacionales</h5>
+              <p class="card-text text-muted">Estudia política global, diplomacia y estrategias de cooperación internacional.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalInternational">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 9 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/fine-arts.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-palette"></i></div>
+              <h5 class="card-title">Artes Plásticas</h5>
+              <p class="card-text text-muted">Libera tu creatividad a través de pintura, escultura y diseño digital.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalArts">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 10 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/music-performing-arts.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-music-note-beamed"></i></div>
+              <h5 class="card-title">Música y Artes Escénicas</h5>
+              <p class="card-text text-muted">Desarrolla habilidades de interpretación y explora teoría musical, producción y teatro.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalMusic">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 11 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/information-technology.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-wifi"></i></div>
+              <h5 class="card-title">Tecnologías de la Información</h5>
+              <p class="card-text text-muted">Especialízate en redes, sistemas y administración de bases de datos.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalIT">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Programa 12 -->
+      <div class="col-md-6 col-lg-4 mt-5 mb-5" data-aos="fade-up">
+        <div class="position-relative">
+
+          <!-- Imagen flotante -->
+          <img src="images/programs/environmental-science.webp" alt="Decorativo" class="floating-image" data-aos="fade-down-left">
+
+          <!-- Tarjeta -->
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3 text-warning fs-1"><i class="bi bi-tree"></i></div>
+              <h5 class="card-title">Ciencias Ambientales</h5>
+              <p class="card-text text-muted">Investiga conservación, sostenibilidad y gestión ambiental.</p>
+              <button class="btn btn-outline-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalEnvironment">
+                Más Información
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+<!-- 1. Ciencias de la Computación -->
+<div class="modal fade" id="modalComputerScience" tabindex="-1" aria-labelledby="modalComputerScienceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalComputerScienceLabel">Ciencias de la Computación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/computer-science.webp" alt="Ciencias de la Computación" class="img-fluid rounded mb-4">
+        <p>Nuestro programa de Ciencias de la Computación ofrece formación profunda en programación, inteligencia artificial, ciencia de datos, ingeniería de software y ciberseguridad.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Ciencias (B.Sc.)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Oportunidades de prácticas profesionales</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Trayectorias profesionales: Ingeniero de software, Analista de datos, Especialista en IA</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-computer-science.html" class="btn btn-outline-warning mt-2">Más información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. Administración de Empresas -->
+<div class="modal fade" id="modalBusiness" tabindex="-1" aria-labelledby="modalBusinessLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBusinessLabel">Administración de Empresas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/business-administration.webp" alt="Administración de Empresas" class="img-fluid rounded mb-4">
+        <p>Desarrolla habilidades de liderazgo y gestión a través de estudios de casos, proyectos del mundo real y simulaciones estratégicas de negocios.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Administración de Empresas (BBA)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Áreas de enfoque: Marketing, Finanzas, Emprendimiento</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-business-administration.html" class="btn btn-outline-warning mt-2">Más información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. Enfermería -->
+<div class="modal fade" id="modalNursing" tabindex="-1" aria-labelledby="modalNursingLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalNursingLabel">Enfermería</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/nursing.webp" alt="Enfermería" class="img-fluid rounded mb-4">
+        <p>Desarrolla habilidades críticas en el cuidado de la salud mediante prácticas clínicas, laboratorios y cursos de anatomía, farmacología y atención al paciente.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Ciencias en Enfermería (BScN)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Prácticas clínicas obligatorias</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-nursing.html" class="btn btn-outline-warning mt-2">Más información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 4. Ingeniería -->
+<div class="modal fade" id="modalEngineering" tabindex="-1" aria-labelledby="modalEngineeringLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalEngineeringLabel">Ingeniería</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/engineering.webp" alt="Ingeniería" class="img-fluid rounded mb-4">
+        <p>Adquiere experiencia práctica en ingeniería mecánica, civil, eléctrica o de software a través de trabajos de laboratorio y proyectos reales.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Ingeniería (B.Eng.)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Especializaciones: Mecánica, Civil, Eléctrica</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-engineering.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. Periodismo -->
+<div class="modal fade" id="modalJournalism" tabindex="-1" aria-labelledby="modalJournalismLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalJournalismLabel">Periodismo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/journalism-media.webp" alt="Periodismo y Medios" class="img-fluid rounded mb-4">
+        <p>Capacítate en periodismo de investigación, reportajes multimedia y ética mediática con experiencia real en salas de redacción.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Periodismo</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Enfoque: Impreso, Radiodifusión, Medios Digitales</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-journalism.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 6. Psicología -->
+<div class="modal fade" id="modalPsychology" tabindex="-1" aria-labelledby="modalPsychologyLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalPsychologyLabel">Psicología</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/psychology.webp" alt="Psicología" class="img-fluid rounded mb-4">
+        <p>Estudia el comportamiento humano y los procesos mentales con formación práctica en consejería, investigación y desarrollo cognitivo.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Artes (B.A.) o Ciencias (B.Sc.)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Carreras: Terapeuta, Consejero, Recursos Humanos</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-psychology.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 7. Derecho -->
+<div class="modal fade" id="modalLaw" tabindex="-1" aria-labelledby="modalLawLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLawLabel">Derecho</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/law.webp" alt="Derecho" class="img-fluid rounded mb-4">
+        <p>Domina los principios legales, procedimientos judiciales y el pensamiento crítico mediante juicios simulados y prácticas legales.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 3–4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Derecho (LL.B.)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Carreras: Abogado, Juez, Asesor Legal</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-law.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 8. Relaciones Internacionales -->
+<div class="modal fade" id="modalInternational" tabindex="-1" aria-labelledby="modalInternationalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalInternationalLabel">Relaciones Internacionales</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/international-relations.webp" alt="Relaciones Internacionales" class="img-fluid rounded mb-4">
+        <p>Estudia diplomacia, política global y resolución de conflictos participando en simulaciones y programas de intercambio.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Artes (B.A.)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Carreras: Diplomático, Analista de Políticas, Gerente de ONG</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-international-relations.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 9. Bellas Artes -->
+<div class="modal fade" id="modalArts" tabindex="-1" aria-labelledby="modalArtsLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalArtsLabel">Bellas Artes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/fine-arts.webp" alt="Bellas Artes" class="img-fluid rounded mb-4">
+        <p>Mejora tus habilidades artísticas en pintura, escultura, arte digital y diseño mediante la práctica en talleres y exposiciones.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Bellas Artes (BFA)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Aprendizaje basado en taller</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-fine-arts.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 10. Música y Artes Escénicas -->
+<div class="modal fade" id="modalMusic" tabindex="-1" aria-labelledby="modalMusicLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalMusicLabel">Música y Artes Escénicas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/music-performing-arts.webp" alt="Música y Artes Escénicas" class="img-fluid rounded mb-4">
+        <p>Desarrolla habilidades en interpretación y explora teoría musical, producción de sonido, escenografía y técnicas teatrales. Ideal para futuros intérpretes y compositores.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Bellas Artes (BFA)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Incluye trabajo en taller y presentaciones en vivo</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Carreras: Músico, Compositor, Intérprete Escénico</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-music-performing-arts.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 11. Tecnologías de la Información -->
+<div class="modal fade" id="modalIT" tabindex="-1" aria-labelledby="modalITLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalITLabel">Tecnologías de la Información</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/programs/information-technology.webp" alt="Tecnologías de la Información" class="img-fluid rounded mb-4">
+        <p>Capacítate en sistemas informáticos, redes, bases de datos y servicios de soporte. Obtén experiencia práctica con tecnologías reales y certificaciones de la industria.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Tecnologías de la Información (BIT)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Incluye certificaciones y trabajo de laboratorio</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Carreras: Especialista en TI, Administrador de Redes, Ingeniero de Soporte</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-information-technology.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 12. Ciencias Ambientales -->
+<div class="modal fade" id="modalEnvironment" tabindex="-1" aria-labelledby="modalEnvironmentLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalEnvironmentLabel">Ciencias Ambientales</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+         <img src="images/programs/environmental-science.webp" alt="Ciencias Ambientales" class="img-fluid rounded mb-4">
+        <p>Explora la sostenibilidad, el cambio climático y la conservación mediante investigaciones de laboratorio y trabajo de campo.</p>
+        <ul class="list-unstyled">
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Duración: 4 años</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Título: Licenciatura en Ciencias (B.Sc.)</span</li>
+          <li><span class="bi bi-check-circle-fill text-warning me-2"></span> <span class="text-dark">Carreras: Analista Ambiental, Ecólogo, Oficial de Sostenibilidad</span</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="program-environmental-science.html" class="btn btn-outline-warning mt-2">Más Información</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+</section>
+<!-- Footer -->
+<div id="site-footer"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/theme-switcher.js"></script>
+  <script src="js/includes.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+
