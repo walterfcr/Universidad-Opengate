@@ -234,7 +234,11 @@
   <script src="js/includes.js"></script>
   <script src="js/load-more.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      once: true,     
+      duration: 400,  
+      easing: 'ease-out'
+    });
   </script>
 </body>
 </html>

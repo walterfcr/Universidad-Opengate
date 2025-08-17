@@ -32,7 +32,7 @@
   <div class="carousel-inner text-white d-flex align-items-center" style="position: relative;">
 
     <div class="carousel-item active" style="background: url(./images/slide-1.webp) center/cover no-repeat; height: 80vh;">
-      <div class="container h-100 d-flex flex-column justify-content-center text-white text-center text-md-start position" style="z-index: 2;" data-aos="fade-up">
+      <div class="container h-100 d-flex flex-column justify-content-center text-white text-center text-md-start position " style="z-index: 2;" data-aos="fade-up">
         <h1 class="display-4 fw-bold text-shadow">Transforma tu futuro con educación de calidad</h1>
         <p class="lead text-shadow">Únete a una comunidad de excelencia académica. Explora nuestros programas hoy.</p>
         <a href="programs.html" class="btn btn-warning btn-lg fw-semibold align-self-md-start align-self-center">Explorar Programas</a>
@@ -457,7 +457,11 @@
   <script src="js/theme-switcher.js"></script>
   <script src="js/includes.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      once: true,     
+      duration: 400,  
+      easing: 'ease-out'
+    });
   </script>
   <script src="js/counter.js"></script>
 </body>
